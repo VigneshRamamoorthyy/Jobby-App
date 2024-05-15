@@ -1,0 +1,149 @@
+.similar-job-card {
+  width: 100%;
+  background-color: #272727;
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 786px) {
+  .similar-job-card {
+    width: 30%;
+  }
+}
+
+.similar-job-company-logo-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.similar-job-company-logo {
+  width: 70px;
+}
+
+@media screen and (min-width: 786px) {
+  .similar-job-company-logo {
+    width: 54px;
+  }
+}
+
+.similar-job-company-title-rating {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.similar-job-company-job-title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 786px) {
+  .similar-job-company-job-title {
+    font-size: 16px;
+  }
+}
+
+.similar-job-rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.similar-job-company-rating {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+@media screen and (min-width: 786px) {
+  .similar-job-company-rating {
+    font-size: 16px;
+  }
+}
+
+.similar-job-location-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-job-location-employment-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.similar-job-location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.similar-job-location-company-icon {
+  color: #f8fafc;
+  font-size: 20px;
+}
+
+.similar-job-location-type {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+.similar-job-salary-package {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.similar-job-line-break {
+  border: #64748b solid 1px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.similar-job-description-header {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 786px) {
+  .similar-job-description-header {
+    font-size: 20px;
+  }
+}
+
+.similar-job-company-description {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 786px) {
+  .similar-job-company-description {
+    font-size: 14px;
+  }
+}
+
+.similar-job-job-link {
+  text-decoration: none;
+}

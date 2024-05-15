@@ -1,0 +1,132 @@
+.job-card {
+  width: 100%;
+  background-color: #272727;
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 786px) {
+  .job-card {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.company-logo-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.company-logo {
+  width: 70px;
+}
+
+@media screen and (min-width: 786px) {
+  .company-logo {
+    width: 60px;
+  }
+}
+
+.company-title-rating {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.company-job-title {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.company-rating {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.location-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-employment-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.location-company-icon {
+  color: #f8fafc;
+  font-size: 20px;
+}
+
+.company-location-type {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+.salary-package {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.line-break {
+  border: #64748b solid 1px;
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.company-description-header {
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.company-description {
+  color: #f8fafc;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 786px) {
+  .company-description {
+    font-size: 15px;
+  }
+}
+
+.job-link {
+  text-decoration: none;
+}
